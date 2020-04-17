@@ -26,6 +26,7 @@ python -m pip install --no-index --find-links=. memorystore
 (1, 10)
 
 # The get_identity method returns a key for an item.
+>>> item = (5, 50)
 >>> store[store.get_identity(item)] = item
 >>> store[5]
 (5, 50)

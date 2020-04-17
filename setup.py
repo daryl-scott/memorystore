@@ -13,7 +13,7 @@ setuptools.setup(
     description="Provides a dictionary interface to a list of lists of list of tuples.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    #url="https://github.com/daryl-scott/mround",
+    url="https://github.com/daryl-scott/memorystore",
     packages=["memorystore"],
     install_requires=['six'],
     classifiers=[
